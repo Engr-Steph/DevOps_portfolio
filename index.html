@@ -3,17 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stephanie Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Stephanie | DevOps Engineer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <!-- Loader -->
-    <div id="loader">
-        <div class="loader"></div>
-    </div>
 
     <!-- Back to Top -->
     <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
@@ -25,7 +20,7 @@
             <ul class="navbar-nav">
                 <li><a href="#hero" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
@@ -36,16 +31,16 @@
     <section class="hero" id="hero">
         <div class="container">
             <div class="hero-content">
-                <p>Hello, I'm Stephanie</p>
-                <h1>Web Developer</h1>
-                <h2 class="typed-text">Creating beautiful websites</h2>
+                <p>Welcome, I'm Stephanie</p>
+                <h1>DevOps Engineer</h1>
+                <h2 class="typed-text">Building reliable infrastructure and automation</h2>
                 <div class="hero-btn">
-                    <a href="#portfolio" class="btn">My Work</a>
+                    <a href="#portfolio" class="btn">My Projects</a>
                     <a href="#contact" class="btn">Contact Me</a>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="img/hero-img.png" alt="Hero Image">
+                <img src="img/hero.png" alt="Hero Image">
             </div>
         </div>
     </section>
@@ -59,43 +54,64 @@
             </div>
             <div class="about-content">
                 <div class="about-img">
-                    <img src="img/about.jpg" alt="About Image">
+                    <img src="img/about.JPG" alt="About Image">
                 </div>
                 <div class="about-text">
-                    <p>I am a passionate web developer with skills in HTML, CSS, JavaScript, and modern frameworks.</p>
-                    <a href="#contact" class="btn">Hire Me</a>
+                    <p>I am a passionate DevOps Engineer with experience in cloud infrastructure, containerization, CI/CD pipelines, and infrastructure automation. I focus on building scalable, reliable systems that support development teams in delivering quality software efficiently.</p>
+                    <a href="#contact" class="btn">Let's Work Together</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="service" id="services">
+    <!-- Skills Section -->
+    <section class="service" id="skills">
         <div class="container">
             <div class="section-header">
-                <p>What I Do</p>
-                <h2>Services</h2>
+                <p>My Expertise</p>
+                <h2>Core Skills</h2>
             </div>
             <div class="service-items">
                 <div class="service-item">
-                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <div class="service-icon"><i class="fas fa-cloud"></i></div>
                     <div class="service-text">
-                        <h3>Web Development</h3>
-                        <p>Building responsive and modern websites.</p>
+                        <h3>Cloud Infrastructure</h3>
+                        <p>AWS, Azure, GCP - designing and managing cloud environments</p>
                     </div>
                 </div>
                 <div class="service-item">
-                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <div class="service-icon"><i class="fas fa-cube"></i></div>
                     <div class="service-text">
-                        <h3>UI/UX Design</h3>
-                        <p>Designing user-friendly interfaces and experiences.</p>
+                        <h3>Containerization</h3>
+                        <p>Docker and Kubernetes - orchestrating containerized applications</p>
                     </div>
                 </div>
                 <div class="service-item">
-                    <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="service-icon"><i class="fas fa-code-branch"></i></div>
                     <div class="service-text">
-                        <h3>Responsive Design</h3>
-                        <p>Optimizing websites for all devices and screens.</p>
+                        <h3>CI/CD Pipelines</h3>
+                        <p>Jenkins, GitLab CI, GitHub Actions - automating deployment</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><i class="fas fa-cog"></i></div>
+                    <div class="service-text">
+                        <h3>Infrastructure as Code</h3>
+                        <p>Terraform, CloudFormation, Ansible - managing infrastructure</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="service-text">
+                        <h3>Monitoring & Logging</h3>
+                        <p>Prometheus, ELK Stack, DataDog - system observability</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><i class="fas fa-lock"></i></div>
+                    <div class="service-text">
+                        <h3>Security & Compliance</h3>
+                        <p>Infrastructure security, access control, compliance automation</p>
                     </div>
                 </div>
             </div>
@@ -107,24 +123,56 @@
         <div class="container">
             <div class="section-header">
                 <p>My Work</p>
-                <h2>Portfolio</h2>
+                <h2>Featured Projects</h2>
             </div>
             <div class="portfolio-items">
                 <div class="portfolio-item">
                     <div class="portfolio-img">
-                        <img src="img/portfolio1.jpg" alt="Project 1">
+                        <img src="img/portfolio-1.jpg" alt="Domain Integration">
                     </div>
                     <div class="portfolio-text">
-                        <h3>Project 1</h3>
+                        <h3>Domain Integration</h3>
+                        <p>Seamless integration of multiple domains and services</p>
                         <a href="#" class="btn"><i class="fas fa-link"></i></a>
                     </div>
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-img">
-                        <img src="img/portfolio2.jpg" alt="Project 2">
+                        <img src="img/portfolio-2.jpg" alt="Cloud Security">
                     </div>
                     <div class="portfolio-text">
-                        <h3>Project 2</h3>
+                        <h3>Cloud Security</h3>
+                        <p>Implementing robust security measures in cloud environments</p>
+                        <a href="#" class="btn"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/portfolio-3.jpg" alt="Data Analysis Pipeline">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Data Analysis Pipeline</h3>
+                        <p>Automated data processing and analysis workflows</p>
+                        <a href="#" class="btn"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/portfolio-4.jpg" alt="Datadog Integration">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Datadog Integration</h3>
+                        <p>Monitoring and observability platform implementation</p>
+                        <a href="#" class="btn"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/portfolio-5.jpg" alt="Bash Scripting">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Bash Scripting</h3>
+                        <p>Automation scripts for system administration and deployment</p>
                         <a href="#" class="btn"><i class="fas fa-link"></i></a>
                     </div>
                 </div>
@@ -139,11 +187,12 @@
                 <p>Get In Touch</p>
                 <h2>Contact Me</h2>
             </div>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button class="btn">Send Message</button>
+            <form class="contact-form" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
             </form>
         </div>
     </section>
@@ -153,19 +202,20 @@
         <div class="container">
             <div class="footer-info">
                 <h2>Stephanie</h2>
-                <h3>Web Developer</h3>
+                <h3>DevOps Engineer</h3>
             </div>
             <div class="footer-social">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://linkedin.com" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:your-email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
             </div>
             <div class="copyright">
-                <p>&copy; 2024 Stephanie. All rights reserved.</p>
+                <p>&copy; 2025 Stephanie. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="mail/contact.js"></script>
 </body>
 </html>
