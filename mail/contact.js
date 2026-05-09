@@ -1,25 +1,12 @@
 // ============================= 
 // Modern Contact Form Handler
 // =============================
-// Google Apps Script Configuration loaded from config.json
+// Google Apps Script Configuration
+const GOOGLE_APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxdiBiGTOGjDSIcqVaitOT6Rl3nf0L-oK_3BXVIyPZLErNVZzzlaFgwOAB44X9-3wg0/exec';
 
 "use strict";
 
-let GOOGLE_APPS_SCRIPT_URL = '';
-
-// Load configuration
-async function loadConfig() {
-    try {
-        const response = await fetch('../config.json');
-        const config = await response.json();
-        GOOGLE_APPS_SCRIPT_URL = config.GOOGLE_APPS_SCRIPT_URL;
-    } catch (error) {
-        console.error('Error loading config:', error);
-    }
-}
-
-document.addEventListener('DOMContentLoaded', async () => {
-    await loadConfig();
+document.addEventListener('DOMContentLoaded', () => {
     const contactForm = document.querySelector('.contact-form');
     
     if (!contactForm) {
