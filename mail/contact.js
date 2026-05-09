@@ -10,7 +10,7 @@ let GOOGLE_APPS_SCRIPT_URL = '';
 // Load configuration
 async function loadConfig() {
     try {
-        const response = await fetch('../config.json');
+        const response = await fetch('/config.json');
         const config = await response.json();
         GOOGLE_APPS_SCRIPT_URL = config.GOOGLE_APPS_SCRIPT_URL;
     } catch (error) {
