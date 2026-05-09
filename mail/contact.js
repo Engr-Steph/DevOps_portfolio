@@ -3,7 +3,7 @@
 // =============================
 // Google Apps Script Configuration
 // Replace this with your Apps Script deployment URL
-const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/d/YOUR_DEPLOYMENT_ID/usercopy";
+const GOOGLE_APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxdiBiGTOGjDSIcqVaitOT6Rl3nf0L-oK_3BXVIyPZLErNVZzzlaFgwOAB44X9-3wg0/exec';
 
 "use strict";
 
